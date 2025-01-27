@@ -56,6 +56,38 @@ data_sets.push(d2)
 // menu3 =============================================================
 let d3 = new DataSet("서버프로그램구현")//메인타이틀
 d3.set_content("회원가입구현")//서브타이틀
+d3.set_img(0,{imgtitle:"회원가입폼",
+	imgurl:"https://drive.google.com/file/d/1eHAnqiMIgRePGw-QOiezVF4EbHxe_KKZ/view?usp=drive_link",
+	imglog:"회원가입 할수있는 폼 ",
+	sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"회원가입 진행",
+	imgurl:"https://drive.google.com/file/d/1x9xZx8YN7mWP6b_xlmSpMKgOw1yPWeAA/view?usp=drive_link",
+	imglog:"회원데이터 입력 ",
+	sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"데이터 송신(클라이언트)",
+	imgurl:"https://drive.google.com/file/d/16ZnJiWRGL-KETJ8n3DEke47y2aNTpB2S/view?usp=drive_link",
+	imglog:"회원이 입력한 데이터를 서버측에 송신한다 ",
+	sourceurl:"https://github.com/rjtlrlajtlrl/loginsystem/blob/main/LoginSystem/src/main/resources/static/signup.html"})//이미지타이틀
+d3.set_img(0,{imgtitle:"데이터 수신 (서버)",
+	imgurl:"https://drive.google.com/file/d/1af8sYPv6uGloQQrgwMDmLz5XMNf-wrS6/view?usp=drive_link",
+	imglog:"회원이 입력한 데이터를 서버에서 수신한다 ",
+	sourceurl:"https://github.com/rjtlrlajtlrl/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
+d3.set_img(0,{imgtitle:"DAO 접근",
+	imgurl:"https://drive.google.com/file/d/1ISVu_V-rargtFKGnTFI2dV1U5WJ1rWTA/view?usp=drive_link",
+	imglog:"DAO객체를 이용하여 데이터베이스에 접근한다 ",
+	sourceurl:"https://github.com/rjtlrlajtlrl/loginsystem/tree/main/LoginSystem/src/main/java/com/itg/examp/dao"})//이미지타이틀
+d3.set_img(0,{imgtitle:"맵퍼에 의한 쿼리",
+	imgurl:"https://drive.google.com/file/d/1E2LpN2YZ-xlcYhUwHjbry8aSgzjbgt8Z/view?usp=drive_link",
+	imglog:"맵퍼xml로 데이터베이스에 데이터 입력 ",
+	sourceurl:"https://github.com/rjtlrlajtlrl/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/config/memberMapper.xml"})//이미지타이틀
+d3.set_img(0,{imgtitle:"회원가입 성공",
+	imgurl:"https://drive.google.com/file/d/1wx2ltXaHZkqajfrghsoN1u8BSvPZMv2G/view?usp=drive_link",
+	imglog:"가입성공메시지 출력 ",
+	sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"회원데이터베이스 확인",
+	imgurl:"https://drive.google.com/file/d/1MmxjnWfMTmuscTahAYi5cyM9tnUrgYeS/view?usp=drive_link",
+	imglog:"가입된 회원정보가 데이토베이스에 입력 확인 ",
+	sourceurl:""})//이미지타이틀
 d3.set_content("회원로그인구현")
 d3.set_content("회원리스트연동")
 d3.set_content("테스트케이스 작성")
