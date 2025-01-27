@@ -118,10 +118,49 @@ d3.set_img(1,{imgtitle:"로그인성공화면",
 imgurl:"https://drive.google.com/file/d/1ND-7KNEICS0wLlRl10gPOeoXEOwyocCU/view?usp=drive_link",
 imglog:"로그인 성공 화면을 출력함.",
 sourceurl:""})//이미지타이틀
+
+d3.set_content("회원로그아웃 구현")
+d3.set_img(2,{imgtitle:"로그인화면",
+imgurl:"https://drive.google.com/file/d/1Ja_AS4SdN4L5X1BMw0IkeBPOyRzQ_Vjj/view?usp=drive_link",
+imglog:"로그인을 하기 위해 아이디와 비밀번호를 입력한다.",
+sourceurl:""})//이미지타이틀
+d3.set_img(2,{imgtitle:"로그인성공화면",
+imgurl:"https://drive.google.com/file/d/1QjNboNyl5p6fppXWKKdVprtlKoXA3EMr/view?usp=drive_link",
+imglog:"로그인 성공 화면을 출력함.",
+sourceurl:""})//이미지타이틀
+d3.set_img(2,{imgtitle:"로그아웃요청송신",
+imgurl:"https://drive.google.com/file/d/1-IgjoRlpC_eAK6wK4VBER8_SXQYOeCU2/view?usp=drive_link",
+imglog:"로그아웃정보송신코드",
+sourceurl:"https://github.com/rjtlrlajtlrl/loginsystem/blob/main/index.html"})//이미지타이틀
+d3.set_img(2,{imgtitle:"로그아웃정보서버수신",
+imgurl:"https://drive.google.com/file/d/1zWu8T3KervdwzAR85WsP9y_borJTw9Tz/view?usp=drive_link",
+imglog:"로그아웃하기위해서 서버에서 로그아웃정보를 수신하여 세션을 해제한다.",
+sourceurl:"https://github.com/rjtlrlajtlrl/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
+d3.set_img(2,{imgtitle:"로그아웃완료",
+imgurl:"https://drive.google.com/file/d/1XRXry0PoxU1oBFKN1gdNivUvIgQRwTe0/view?usp=drive_link",
+imglog:"로그아웃정보를 수신했고 정상적으로 로그아웃하였습니다.",
+sourceurl:""})//이미지타이틀
+
 //d3.set_content("회원리스트연동")
-//d3.set_content("테스트케이스 작성")
-//d3.set_content("목오브젝트생성 및 테스트 구현")
-//d3.set_content("결과보고서 작성")
+d3.set_content("회원리스트 출력 구현")
+d3.set_img(2,{imgtitle:"회원리스트 출력 전",
+imgurl:"https://drive.google.com/file/d/1PLkiypVDBoJrll0kuKeWifeVEpUj1Oxj/view?usp=drive_link",
+imglog:"회원리스트 출력을 위해 회원리스트보기 버튼을 클릭하고자 합니다.",
+sourceurl:""})//이미지타이틀
+d3.set_img(2,{imgtitle:"회원리스트요청송신",
+imgurl:"https://drive.google.com/file/d/103VOpBmn-MN8sCqiRDPpYjXcj6Zj0IEe/view?usp=drive_link",
+imglog:"회원리스트요청을 송신하는 코드입니다.",
+sourceurl:""})//이미지타이틀
+d3.set_img(2,{imgtitle:"회원리스트요청정보 서버수신",
+imgurl:"https://drive.google.com/file/d/1HYgNF36KK0sKkevXDmM0BFeessbaYWKA/view?usp=drive_link",
+imglog:"회원리스트요청을 서버가 수신하여 회원리스트정보를 출력합니다.",
+sourceurl:""})//이미지타이틀
+d3.set_img(2,{imgtitle:"회원리스트 출력",
+imgurl:"https://drive.google.com/file/d/19lDCiDcHt0cYpCnBfXCqtWqIadiUBOET/view?usp=drive_link",
+imglog:"회원리스트가 출력되어 회원들의 정보가 표시되었습니다.",
+sourceurl:""})//이미지타이틀
+
+
 d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d3)
 
