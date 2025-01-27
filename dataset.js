@@ -89,11 +89,11 @@ d3.set_img(0,{imgtitle:"회원데이터베이스 확인",
 	imgurl:"https://drive.google.com/file/d/1MmxjnWfMTmuscTahAYi5cyM9tnUrgYeS/view?usp=drive_link",
 	imglog:"가입된 회원정보가 데이토베이스에 입력 확인 ",
 	sourceurl:""})//이미지타이틀
-d3.set_content("회원로그인구현")
-d3.set_content("회원리스트연동")
-d3.set_content("테스트케이스 작성")
-d3.set_content("목오브젝트생성 및 테스트 구현")
-d3.set_content("결과보고서 작성")
+//d3.set_content("회원로그인구현")
+//d3.set_content("회원리스트연동")
+//d3.set_content("테스트케이스 작성")
+//d3.set_content("목오브젝트생성 및 테스트 구현")
+//d3.set_content("결과보고서 작성")
 d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d3)
 
