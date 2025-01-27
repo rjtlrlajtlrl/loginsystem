@@ -150,17 +150,15 @@ sourceurl:""})//이미지타이틀
 d3.set_img(2,{imgtitle:"회원리스트요청송신",
 imgurl:"https://drive.google.com/file/d/103VOpBmn-MN8sCqiRDPpYjXcj6Zj0IEe/view?usp=drive_link",
 imglog:"회원리스트요청을 송신하는 코드입니다.",
-sourceurl:""})//이미지타이틀
+sourceurl:"https://github.com/rjtlrlajtlrl/loginsystem/blob/main/LoginSystem/src/main/resources/static/index.html"})//이미지타이틀
 d3.set_img(2,{imgtitle:"회원리스트요청정보 서버수신",
 imgurl:"https://drive.google.com/file/d/1HYgNF36KK0sKkevXDmM0BFeessbaYWKA/view?usp=drive_link",
 imglog:"회원리스트요청을 서버가 수신하여 회원리스트정보를 출력합니다.",
-sourceurl:""})//이미지타이틀
+sourceurl:"https://github.com/rjtlrlajtlrl/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
 d3.set_img(2,{imgtitle:"회원리스트 출력",
 imgurl:"https://drive.google.com/file/d/19lDCiDcHt0cYpCnBfXCqtWqIadiUBOET/view?usp=drive_link",
 imglog:"회원리스트가 출력되어 회원들의 정보가 표시되었습니다.",
 sourceurl:""})//이미지타이틀
-
-
 d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d3)
 
