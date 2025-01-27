@@ -54,11 +54,19 @@ public class MemberController {
 	public Map signin(HttpServletRequest request, @RequestBody Map<String,String> logindata) {
 		System.out.println(logindata);
 		HashMap<String, Object> hm = new HashMap<>();
-		//로그인 검증
+		//로그인 검증	
+		MemberDTO member = dao.signinMemeber(logindata);
+		if(member!=null) {
+			HttpSession auth =  request.getSession(true);
+			auth.setAttribute("mid", member.getMid());//세션에 아이디 설정
+			//auth.getAttribute("mid");//세션에서 아이디 출력
+			hm.put("message", "로그인성공");
+			hm.put("member", member);
+		}else {
+			hm.put("message", "아이디와 비밀번호를 다시 확인 하세요");
+		}
+		return hm;		
 		
-		HttpSession auth =  request.getSession(true);
-		hm.put("message", logindata);
-		return hm;
 		
 	}
 	@GetMapping("/logout")
