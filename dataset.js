@@ -89,7 +89,35 @@ d3.set_img(0,{imgtitle:"회원데이터베이스 확인",
 	imgurl:"https://drive.google.com/file/d/1MmxjnWfMTmuscTahAYi5cyM9tnUrgYeS/view?usp=drive_link",
 	imglog:"가입된 회원정보가 데이토베이스에 입력 확인 ",
 	sourceurl:""})//이미지타이틀
-//d3.set_content("회원로그인구현")
+//d3.set_img(0,{imgtitle:"",
+//	imgurl:"",
+//	imglog:"",
+//	sourceurl:""})//이미지타이틀
+d3.set_content("회원로그인구현")
+d3.set_img(1,{imgtitle:"로그인 데이터 입력",
+imgurl:"https://drive.google.com/file/d/18fOCrDMBF90Lsqsc2OG4W4lrg7GkPu99/view?usp=drive_link",
+imglog:"회원 아이디와 비밀번호를 클라이언트 화면에서 입력한다.",
+sourceurl:""})//이미지타이틀
+d3.set_img(1,{imgtitle:"회원 정보 서버로 송신",
+imgurl:"https://drive.google.com/file/d/1mG8SlHVB4eFZsftwsbSPsii7JUV61IRt/view?usp=drive_link",
+imglog:"로그인 하기 위한 아이디와 비밀번호 정보를 서버로 송신한다.",
+sourceurl:"https://github.com/dmsgur/loginsystem/blob/codeone/LoginSystem/src/main/resources/static/index.html"})//이미지타이틀
+d3.set_img(1,{imgtitle:"전송된 로그인 정보 수신",
+imgurl:"https://drive.google.com/file/d/1KljdKRw_IKaYr4FZhI0ietGK6_grcBqY/view?usp=drive_link",
+imglog:"클라이언트에서 전송된 로그인 정보를 서버에서 수신하여 처리한다.",
+sourceurl:"https://github.com/dmsgur/loginsystem/blob/codeone/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
+d3.set_img(1,{imgtitle:"DAO 객체 메소드 실행",
+imgurl:"https://drive.google.com/file/d/1nRKKxg9KGuagwZkmm-vCWhOYDCkMuEwi/view?usp=drive_link",
+imglog:"데이터베이스 접근을 위해 DAO 객체의 메소드를 실행한다.",
+sourceurl:"https://github.com/dmsgur/loginsystem/blob/codeone/LoginSystem/src/main/java/com/itg/examp/dao/MemberDAOImpl.java"})//이미지타이틀
+d3.set_img(1,{imgtitle:"데이터베이스 매퍼쿼리",
+imgurl:"https://drive.google.com/file/d/1pbvB2gbh4BTjfuLjOgDJhKmcv_M1s3LM/view?usp=drive_link",
+imglog:"매퍼에 의해서 데이터베이스 쿼리를 실행하여 결과값을 받는다.",
+sourceurl:"https://github.com/dmsgur/loginsystem/blob/codeone/LoginSystem/src/main/java/com/itg/examp/config/memberMapper.xml"})//이미지타이틀
+d3.set_img(1,{imgtitle:"로그인성공화면",
+imgurl:"https://drive.google.com/file/d/1ND-7KNEICS0wLlRl10gPOeoXEOwyocCU/view?usp=drive_link",
+imglog:"로그인 성공 화면을 출력함.",
+sourceurl:""})//이미지타이틀
 //d3.set_content("회원리스트연동")
 //d3.set_content("테스트케이스 작성")
 //d3.set_content("목오브젝트생성 및 테스트 구현")
