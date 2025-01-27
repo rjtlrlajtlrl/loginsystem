@@ -143,19 +143,19 @@ sourceurl:""})//이미지타이틀
 
 //d3.set_content("회원리스트연동")
 d3.set_content("회원리스트 출력 구현")
-d3.set_img(2,{imgtitle:"회원리스트 출력 전",
+d3.set_img(3,{imgtitle:"회원리스트 출력 전",
 imgurl:"https://drive.google.com/file/d/1PLkiypVDBoJrll0kuKeWifeVEpUj1Oxj/view?usp=drive_link",
 imglog:"회원리스트 출력을 위해 회원리스트보기 버튼을 클릭하고자 합니다.",
 sourceurl:""})//이미지타이틀
-d3.set_img(2,{imgtitle:"회원리스트요청송신",
+d3.set_img(3,{imgtitle:"회원리스트요청송신",
 imgurl:"https://drive.google.com/file/d/103VOpBmn-MN8sCqiRDPpYjXcj6Zj0IEe/view?usp=drive_link",
 imglog:"회원리스트요청을 송신하는 코드입니다.",
 sourceurl:"https://github.com/rjtlrlajtlrl/loginsystem/blob/main/LoginSystem/src/main/resources/static/index.html"})//이미지타이틀
-d3.set_img(2,{imgtitle:"회원리스트요청정보 서버수신",
+d3.set_img(3,{imgtitle:"회원리스트요청정보 서버수신",
 imgurl:"https://drive.google.com/file/d/1HYgNF36KK0sKkevXDmM0BFeessbaYWKA/view?usp=drive_link",
 imglog:"회원리스트요청을 서버가 수신하여 회원리스트정보를 출력합니다.",
 sourceurl:"https://github.com/rjtlrlajtlrl/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
-d3.set_img(2,{imgtitle:"회원리스트 출력",
+d3.set_img(3,{imgtitle:"회원리스트 출력",
 imgurl:"https://drive.google.com/file/d/19lDCiDcHt0cYpCnBfXCqtWqIadiUBOET/view?usp=drive_link",
 imglog:"회원리스트가 출력되어 회원들의 정보가 표시되었습니다.",
 sourceurl:""})//이미지타이틀
