@@ -47,8 +47,12 @@ data_sets.push(d1)
 let d2 = new DataSet("공통모듈구현")//메인타이틀
 
 d2.set_content("공통모듈구현을 작성합니다.")//서브 타이틀
+d2.set_img(0,{imgtitle:"작동테스트",imgurl:"https://drive.google.com/file/d/1TohkPPMnoHvC0tuBu1HkhktmW5epepy9/view?usp=drive_link",imglog:"공통모듈작동여부 테스트",sourceurl:""})//이미지타이틀
+d2.set_img(0,{imgtitle:"분리전 코드",imgurl:"https://drive.google.com/file/d/1qu9prt1FI2NdBfGIj-_kU4g6pizQkHef/view?usp=drive_link",imglog:"공통모듈 분리전 코드",sourceurl:"https://github.com/rjtlrlajtlrl/loginsystem/blob/main/LoginSystem/src/main/resources/static/common.js"})//이미지타이틀
+d2.set_img(0,{imgtitle:"분리후 코드",imgurl:"https://drive.google.com/file/d/1TzJvKojzS9G7GHSg3qrFLgdTVs3Luz8w/view?usp=drive_link",imglog:"공통모듈 분리후 코드",sourceurl:"https://github.com/rjtlrlajtlrl/loginsystem/blob/main/LoginSystem/src/main/resources/static/common.js"})//이미지타이틀
 d2.set_img(0,{imgtitle:"형상관리도구 git",imgurl:"https://drive.google.com/file/d/1yLXiqHWblzxAnZXGZKvRcxU8HSgf3UqS/view?usp=drive_link",imglog:"프로그램의 전반적인 개발협업 및 버전관를 위한 도구",sourceurl:""})//이미지타이틀
-//d2.set_content("테스트케이스를 작성합니다.")
+d2.set_content("테스트케이스를 작성합니다.")
+d2.set_img(1,{imgtitle:"테스트케이스작성",imgurl:"https://drive.google.com/file/d/1efi1kGvs6H3bQNK_EZWFlpEVldAoNB6s/view?usp=drive_link",imglog:"작성된 테스트 케이스로 테스트를 실행합니다.",sourceurl:"https://docs.google.com/document/d/15cRyMGoQSjp9Tw6DFH5lfmz2HC-bITQ_MIhvcsvr8hs/edit?usp=drive_link"})//이미지타이틀
 //d2.set_content("단위테스트를 작성합니다.")
 
 d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그

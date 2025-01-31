@@ -15,6 +15,7 @@
 		<a href="#" id="logoutContainer"></a>
 	</body>
 	<script>
+		
 		$("#signin").click(async ()=>{
 			const data = await login($("#myid").val(),$("#mpw").val());
 			if(data.message=="로그인성공"){
