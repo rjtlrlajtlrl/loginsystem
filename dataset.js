@@ -81,10 +81,6 @@ d3.set_img(0,{imgtitle:"DAO 접근",
 	imgurl:"https://drive.google.com/file/d/1ISVu_V-rargtFKGnTFI2dV1U5WJ1rWTA/view?usp=drive_link",
 	imglog:"DAO객체를 이용하여 데이터베이스에 접근한다 ",
 	sourceurl:"https://github.com/rjtlrlajtlrl/loginsystem/tree/main/LoginSystem/src/main/java/com/itg/examp/dao"})//이미지타이틀
-d3.set_img(0,{imgtitle:"맵퍼에 의한 쿼리",
-	imgurl:"https://drive.google.com/file/d/1E2LpN2YZ-xlcYhUwHjbry8aSgzjbgt8Z/view?usp=drive_link",
-	imglog:"맵퍼xml로 데이터베이스에 데이터 입력 ",
-	sourceurl:"https://github.com/rjtlrlajtlrl/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/config/memberMapper.xml"})//이미지타이틀
 d3.set_img(0,{imgtitle:"회원가입 성공",
 	imgurl:"https://drive.google.com/file/d/1wx2ltXaHZkqajfrghsoN1u8BSvPZMv2G/view?usp=drive_link",
 	imglog:"가입성공메시지 출력 ",
@@ -110,14 +106,6 @@ d3.set_img(1,{imgtitle:"전송된 로그인 정보 수신",
 imgurl:"https://drive.google.com/file/d/1KljdKRw_IKaYr4FZhI0ietGK6_grcBqY/view?usp=drive_link",
 imglog:"클라이언트에서 전송된 로그인 정보를 서버에서 수신하여 처리한다.",
 sourceurl:"https://github.com/dmsgur/loginsystem/blob/codeone/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
-d3.set_img(1,{imgtitle:"DAO 객체 메소드 실행",
-imgurl:"https://drive.google.com/file/d/1nRKKxg9KGuagwZkmm-vCWhOYDCkMuEwi/view?usp=drive_link",
-imglog:"데이터베이스 접근을 위해 DAO 객체의 메소드를 실행한다.",
-sourceurl:"https://github.com/dmsgur/loginsystem/blob/codeone/LoginSystem/src/main/java/com/itg/examp/dao/MemberDAOImpl.java"})//이미지타이틀
-d3.set_img(1,{imgtitle:"데이터베이스 매퍼쿼리",
-imgurl:"https://drive.google.com/file/d/1pbvB2gbh4BTjfuLjOgDJhKmcv_M1s3LM/view?usp=drive_link",
-imglog:"매퍼에 의해서 데이터베이스 쿼리를 실행하여 결과값을 받는다.",
-sourceurl:"https://github.com/dmsgur/loginsystem/blob/codeone/LoginSystem/src/main/java/com/itg/examp/config/memberMapper.xml"})//이미지타이틀
 d3.set_img(1,{imgtitle:"로그인성공화면",
 imgurl:"https://drive.google.com/file/d/1ND-7KNEICS0wLlRl10gPOeoXEOwyocCU/view?usp=drive_link",
 imglog:"로그인 성공 화면을 출력함.",
@@ -127,10 +115,6 @@ d3.set_content("회원로그아웃 구현")
 d3.set_img(2,{imgtitle:"로그인화면",
 imgurl:"https://drive.google.com/file/d/1Ja_AS4SdN4L5X1BMw0IkeBPOyRzQ_Vjj/view?usp=drive_link",
 imglog:"로그인을 하기 위해 아이디와 비밀번호를 입력한다.",
-sourceurl:""})//이미지타이틀
-d3.set_img(2,{imgtitle:"로그인성공화면",
-imgurl:"https://drive.google.com/file/d/1QjNboNyl5p6fppXWKKdVprtlKoXA3EMr/view?usp=drive_link",
-imglog:"로그인 성공 화면을 출력함.",
 sourceurl:""})//이미지타이틀
 d3.set_img(2,{imgtitle:"로그아웃요청송신",
 imgurl:"https://drive.google.com/file/d/1-IgjoRlpC_eAK6wK4VBER8_SXQYOeCU2/view?usp=drive_link",
@@ -147,10 +131,7 @@ sourceurl:""})//이미지타이틀
 
 //d3.set_content("회원리스트연동")
 d3.set_content("회원리스트 출력 구현")
-d3.set_img(3,{imgtitle:"회원리스트 출력 전",
-imgurl:"https://drive.google.com/file/d/1PLkiypVDBoJrll0kuKeWifeVEpUj1Oxj/view?usp=drive_link",
-imglog:"회원리스트 출력을 위해 회원리스트보기 버튼을 클릭하고자 합니다.",
-sourceurl:""})//이미지타이틀
+
 d3.set_img(3,{imgtitle:"회원리스트요청송신",
 imgurl:"https://drive.google.com/file/d/103VOpBmn-MN8sCqiRDPpYjXcj6Zj0IEe/view?usp=drive_link",
 imglog:"회원리스트요청을 송신하는 코드입니다.",
